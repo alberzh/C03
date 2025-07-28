@@ -6,20 +6,20 @@
 /*   By: azaragoz <azaragoz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 11:11:42 by azaragoz          #+#    #+#             */
-/*   Updated: 2025/07/28 13:26:34 by azaragoz         ###   ########.fr       */
+/*   Updated: 2025/07/28 14:07:31 by azaragoz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strcmp(char *str1, char *str2)
+int	ft_strcmp(char *s1, char *s2)
 {
 	int	i;
 
 	i = 0;
-	while (str1[i] && str2[i] && str1[i] == str2[i])
+	while (s1[i] && s2[i] && s1[i] == s2[i])
 	{
 		i++;
 	}
-	return (str1[i] - str2[i]);
+	return (s1[i] - s2[i]);
 }
 
 /* #include <stdio.h>
